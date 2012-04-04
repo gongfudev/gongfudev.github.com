@@ -1,25 +1,120 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>Gōng-fu i/o &middot; Bienvenue!</title>	
-</head>
-<body>
-	<h1>Gōng-fu i/o</h1>
-	<p><q>Les termes « gōng » et « fu » sont la transcription du sinogramme 功夫 […] « <em>Gong</em> » désigne la « maîtrise », le « perfectionnement », la « possession d'un métier » ou une action en laquelle beaucoup de temps a été consacré. Le terme est à rapprocher d'un point de vue sémantique de la notion d'artisan tel qu'il était usité en Europe au xixe siècle : ce terme désignait l'homme de métier qui par un apprentissage auprès d'un maître acquérait cultures, techniques et savoir-faire. « <em>Fu</em> » désigne les techniques en tant que contenu, soit l'énergie qui a été mise dans l'action de cette technique. On peut ainsi dire de quelqu'un qu'il possède le « gong fu » en gastronomie, le « gong fu » en peinture, ou le « gong fu » en musique, etc. On désigne également par Gongfu Cha (功夫茶， gōngfuchá) l'art du thé.</q> <a href="http://fr.wikipedia.org/wiki/Kung_Fu">Wikipedia</a></p>
-	<p>Ainsi, Gōng-fu I/O représente notre volonté d'étudier et de progresser dans la pratique du développement logiciel.</p>
-	<p>Pour cela, dans un premier temps, nous nous rencontrons régulièrement (toutes les semaines), à raison d'une séance en binôme de 2h.</p>
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-30234556-1']);
-	  _gaq.push(['_trackPageview']);
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gōng-fu I/O &middot; Etudier et perfectionner ensemble la pratique du développement logiciel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Communauté d'étude et de pratique du développement logiciel">
+    <meta name="author" content="Olivier Lange, Jacques Couvreur">
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>	
-</body>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body { padding-top: 60px; padding-bottom: 40px; }
+      .bs-icon { float: left; margin: -2px 5px 0 0; }
+    </style>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Gōng-fu I/O</a>
+          <!--<div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#"><i class="icon-home icon-white"></i> Accueil</a></li>
+              <li><a href="#about">A propos</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>-->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+      	<img class="pull-right" src="img/icon-gongfu-128.png" width="128" height="128" alt="功夫 I/O" title="Gōng-fu I/O" />
+        <h1>Apprendre ensemble</h1>
+        <p>Un projet d'étude &mdash; un ou plusieurs sujets d'intérêt commun &mdash;
+          des rencontres régulières &mdash; pour perfectionner ensemble, en petit groupe, en apprenant l'un de l'autre
+          et par l'étude, notre pratique du développement logiciel.</p>
+        <p><a class="btn btn-primary btn-large disabled">En savoir plus &raquo;</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Rencontres</h2>
+           <p>1x par semaine<br/>
+            avec un ordi portable<br/>
+            le jeudi de 17h à 20h<br/>
+            à <a href="http://maps.google.ch/?q=uni%20mail,%20gen%C3%A8ve">Unimail Genève</a></p>
+          <p><a class="btn" href="mailto:contact@gongfu.io">Rejoignez-nous &raquo;</a></p>
+					<iframe allowtransparency="true" frameborder="0" scrolling="no"
+					  src="http://platform.twitter.com/widgets/follow_button.html?screen_name=gongfuio&lang=fr&show_count=false"
+					  style="width:300px; height:20px;"></iframe>
+        </div>
+        <div class="span4">
+          <h2>En cours</h2>
+          <h3>Softshake App</h3>
+           <p>Le programme de la conférence de <a href="http://soft-shake.ch/2012/fr/" title="Conférence Softshake 2012">Softshake 2012</a>
+            pour iPhone et Android. Etude et exploration de <a href="http://phonegap.com">PhoneGap</a>,
+            <a href="http://jquerymobile.com/">jQueryMobile</a>, <a href="http://html5rocks.com/">HTML5</a>
+            et <a href="http://www.mongodb.org/">MongoDB</a>.</p>
+          <p><a class="btn disabled" href="#">Tous les projets &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>GitHub</h2>
+          <p>Le code source des projets d'étude sont déposés sur <a href="https://github.com/gongfuio">github.com/gongfuio</a>.
+          <p>Nous y avons créé une organisation, plutôt qu'un compte utilisateur, qui permet de former des équipes
+            et chaque participant peut contribuer publiquement aux projets.</p>
+          <p><a class="btn" href="http://github.com/gongfuio/">
+          	<img class="bs-icon" src="img/icon-github.png" alt=""/> Code source &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p class="muted">
+          <q>« Les termes ‹gōng› et ‹fu› sont la transcription du sinogramme 功夫 […] ‹<em>Gōng</em>› désigne la ‹maîtrise›, le ‹perfectionnement›, la ‹possession d'un métier› ou une action en laquelle beaucoup de temps a été consacré. Le terme est à rapprocher d'un point de vue sémantique de la notion d'artisan tel qu'il était usité en Europe au xixe siècle: ce terme désignait l'homme de métier qui par un apprentissage auprès d'un maître acquérait cultures, techniques et savoir-faire. ‹<em>Fu</em>› désigne les techniques en tant que contenu, soit l'énergie qui a été mise dans l'action de cette technique. On peut ainsi dire de quelqu'un qu'il possède le ‹gōng fu› en gastronomie, le ‹gōng fu› en peinture, ou le ‹gōng fu› en musique, etc. On désigne également par Gōngfu Chá (功夫茶) l'art du thé. »
+          <a href="http://fr.wikipedia.org/wiki/Kung_Fu">&mdash;Wikipedia</a></q>
+        </p>
+        <p><small><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br />Le contenu du site <a xmlns:cc="http://creativecommons.org/ns#" href="http://gongfu.io/" property="cc:attributionName" rel="cc:attributionURL">Gōng-fu I/O</a> et le <a href="http://github.com/gongfuio/">code source</a> des projets d'étude sont mis à votre disposition selon les termes <br/>de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">licence Creative Commons Attribution &ndash; pas d'utilisation commerciale &ndash; partage à l'identique 3.0 non transposé</a>.</small></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script> -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-30234556-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
 </html>
