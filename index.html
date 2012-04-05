@@ -40,6 +40,7 @@
           <!--<div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#"><i class="icon-home icon-white"></i> Accueil</a></li>
+              <li><a href="#who">A qui nous adressons-nous?</a></li>
               <li><a href="#about">A propos</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
@@ -74,25 +75,27 @@
           <h2>Entre pairs</h2>
            <p><a href="https://twitter.com/#!/olange">Olivier Lange</a><br/>
             <a href="http://jacques.couvreur.me/">Jacques Couvreur</a><br/>
-            <a href="http://twitter.com/#!/grillety">Yannick Grillet</a></p>
+            <a href="http://twitter.com/#!/grillety">Yannick Grillet</a><br/>
+            &hellip;&nbsp;et vous?</p>
         </div>
         <div class="span4">
           <h2>Réalisations en cours</h2>
-          <h3>Softshake App</h3>
+          <h3 class="muted">Softshake App</h3>
            <p>Le programme de la conférence de <a href="http://soft-shake.ch/2012/fr/" title="Conférence Softshake 2012">Softshake 2012</a>
             pour iPhone et Android. Etude et exploration de <a href="http://phonegap.com">PhoneGap</a>,
             <a href="http://jquerymobile.com/">jQueryMobile</a>, <a href="http://html5rocks.com/">HTML5</a>
             et&nbsp;<a href="http://www.mongodb.org/">MongoDB</a>.</p>
-          <h3>Site web gōngfu.io</h3>
+          <h3 class="muted">Site web gōngfu.io</h3>
            <p><a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a> pour la mise en page,
              <a href="http://pages.github.com/">GitHub Pages</a> pour la publication et l'hébergement.</p>
           <!-- <p><a class="btn disabled" href="#">Tous les projets &raquo;</a></p> -->
        </div>
         <div class="span4">
           <h2>Montrer la progression</h2>
-          <p>Le code source des projets d'étude est déposé en l'état sur <a href="https://github.com/gongfuio">github.com/gongfuio</a>.
-          <p>Nous y avons créé une organisation, plutôt qu'un compte utilisateur, qui permet de former des équipes
-            et chaque participant peut contribuer publiquement aux projets.</p>
+          <p>Le code source des projets d'étude est déposé en l'état sur
+            <a href="https://github.com/gongfuio">github.com/gongfuio</a></p>
+          <p>Nous y avons créé une organisation, plutôt qu'un compte utilisateur, qui permet de
+            former des équipes et chaque participant peut contribuer publiquement aux projets.</p>
           <p><a class="btn" href="http://github.com/gongfuio/">
           	<img class="bs-icon" src="img/icon-github.png" alt=""/> Code source &raquo;</a></p>
         </div>
@@ -101,18 +104,43 @@
 
       <hr>
 
-      <div>
-      	<p>Vous souhaitez explorer et perfectionner une technologie, ou avancer et partager un projet personnel:	
-          <a class="btn" href="mailto:contact@gongfu.io"><i class="icon-envelope"></i> Rejoignez-nous</a></p>
+      <div class="row">
+        <div class="span8">
+        	<p>Vous souhaitez explorer et perfectionner une technologie, ou avancer et partager un projet personnel?
+            Que vous soyez déjà en binôme, en équipe, ou recherchez un pair: signalez-nous votre projet, vos intérêts
+            et soyez les bienvenu&middot;e&middot;s.</p>
+          <p>Ces sessions sont l'opportunité de rendre compte de votre étude, de la stimuler, et de rencontrer celles
+            et ceux qui comme vous empruntent les chemins de traverse pour nourrir leur pratique, souvent passionnée,
+            du développement logiciel.</p>
+          <p>Prendre le temps d'approfondir et d'éprouver le plaisir de faire. Réserver un moment pour donner, recevoir,
+            en toute humilité. Qui&nbsp;sait quelles idées et rencontres pourraient en naître?</p>
+          <p><a class="btn" href="mailto:contact@gongfu.io"><i class="icon-envelope"></i> Contactez-nous</a></p>
+
+          <hr>
+
+          <p class="muted">
+            <q>« Les termes ‹gōng› et ‹fu› sont la transcription du sinogramme 功夫 […] ‹<em>Gōng</em>› désigne la ‹maîtrise›, le ‹perfectionnement›, la ‹possession d'un métier› ou une action en laquelle beaucoup de temps a été consacré. Le terme est à rapprocher d'un point de vue sémantique de la notion d'artisan tel qu'il était usité en Europe au xixe siècle: ce terme désignait l'homme de métier qui par un apprentissage auprès d'un maître acquérait cultures, techniques et savoir-faire. ‹<em>Fu</em>› désigne les techniques en tant que contenu, soit l'énergie qui a été mise dans l'action de cette technique. On peut ainsi dire de quelqu'un qu'il possède le ‹gōng fu› en gastronomie, le ‹gōng fu› en peinture, ou le ‹gōng fu› en musique, etc. On désigne également par ‹gōngfu chá› (功夫茶) l'art du thé. »
+            <a href="http://fr.wikipedia.org/wiki/Kung_Fu">&mdash;Wikipedia</a></q>
+          </p>
+        </div>
+        <div class="span4">
+          <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+            new TWTR.Widget({
+              version: 2, type: 'profile', rpp: 4, interval: 30000, width: 'auto', height: 300,
+              theme: {
+                shell: {background: '#ffffff', color: '#333333' },
+                tweets: { background: '#ffffff', color: '#333333', links: '#0088cc' }
+              },
+              features: { scrollbar: false, loop: false, live: false, behavior: 'all' }
+            }).render().setUser('gongfuio').start();
+          </script>
+        </div>
       </div>
 
       <hr>
 
       <footer>
-        <p class="muted">
-          <q>« Les termes ‹gōng› et ‹fu› sont la transcription du sinogramme 功夫 […] ‹<em>Gōng</em>› désigne la ‹maîtrise›, le ‹perfectionnement›, la ‹possession d'un métier› ou une action en laquelle beaucoup de temps a été consacré. Le terme est à rapprocher d'un point de vue sémantique de la notion d'artisan tel qu'il était usité en Europe au xixe siècle: ce terme désignait l'homme de métier qui par un apprentissage auprès d'un maître acquérait cultures, techniques et savoir-faire. ‹<em>Fu</em>› désigne les techniques en tant que contenu, soit l'énergie qui a été mise dans l'action de cette technique. On peut ainsi dire de quelqu'un qu'il possède le ‹gōng fu› en gastronomie, le ‹gōng fu› en peinture, ou le ‹gōng fu› en musique, etc. On désigne également par Gōngfu Chá (功夫茶) l'art du thé. »
-          <a href="http://fr.wikipedia.org/wiki/Kung_Fu">&mdash;Wikipedia</a></q>
-        </p>
         <p><small><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br />Le contenu du site <a xmlns:cc="http://creativecommons.org/ns#" href="http://gongfu.io/" property="cc:attributionName" rel="cc:attributionURL">Gōng-fu I/O</a> et le <a href="http://github.com/gongfuio/">code source</a> des projets d'étude sont mis à votre disposition selon les termes <br/>de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">licence Creative Commons Attribution &ndash; pas d'utilisation commerciale &ndash; partage à l'identique 3.0 non transposé</a>.</small></p>
       </footer>
 
