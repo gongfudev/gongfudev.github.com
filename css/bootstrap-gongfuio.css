@@ -1,0 +1,13 @@
+/*!
+ *  Bootstrap overrides and styles specific to our Gōng-fu I/O website
+ *  Copyright 2012 Olivier Lange, Jacques Couvreur
+ *
+ *  @override Twitter Bootstrap v2.0.2
+ *
+ *  Licensed under the Apache License v2.0
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+body { padding-top: 60px; padding-bottom: 40px; }
+.bs-icon { float: left; margin: -2px 5px 0 0; }
+img.pull-right { float: right; padding-left: 30px; }
