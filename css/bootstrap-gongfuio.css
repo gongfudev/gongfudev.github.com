@@ -11,3 +11,10 @@
 body { padding-top: 60px; padding-bottom: 40px; }
 .bs-icon { float: left; margin: -2px 5px 0 0; }
 img.pull-right { float: right; padding-left: 30px; }
+
+.hero-unit h1,
+.subhead h1 { font-size: 48px; line-height: 1em; margin-bottom: 12px; }
+
+.subhead { margin-top: 24px; }
+
+section { margin-top: 36px; }
