@@ -19,4 +19,4 @@ img.pull-right { float: right; padding-left: 30px; }
 
 section { margin-top: 36px; }
 
-img.thumbnail { min-height: 200px; height: 200px; border: none;}
+img.vignette { min-height: 200px; height: 200px; border: none; }
