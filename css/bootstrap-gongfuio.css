@@ -18,3 +18,5 @@ img.pull-right { float: right; padding-left: 30px; }
 .subhead { margin-top: 24px; }
 
 section { margin-top: 36px; }
+
+.thumbnail img { min-height: 200px; height: 200px; }
