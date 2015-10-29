@@ -20,3 +20,6 @@ img.pull-right { float: right; padding-left: 30px; }
 section { margin-top: 36px; }
 
 img.vignette { min-height: 200px; height: 200px; border: none; }
+
+a { color: #C42330; }
+a:hover { color: #E0393E; }
