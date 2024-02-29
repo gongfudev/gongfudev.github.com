@@ -1,4 +1,4 @@
-Gōng-fu I/O website
+Gōng-fu DEV website
 ===================
 
 Ce repository contient le code source du site web [gongfu.dev](https://gongfu.dev) (ex-[gongfu.io](http://gongfu.io)).
